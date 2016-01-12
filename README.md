@@ -1,2 +1,26 @@
 # WSH-debuging-logger
 WSH Windows Script Host function to display structural objects
+
+## Usage
+
+Demonstration.wsh - plaint text file with "wsh" extension on Windows XP+
+```
+<job>
+	<script language="JScript" src="./log.js">
+	<script language="JScript">
+	
+		// demontration
+		log({
+			a: 5,
+			b: [0, 1, 2],
+			c: function () {},
+			d: new Date(),
+			e: new RegExp('[a-z]', 'gi'),
+			f: null,
+			g: undefined,
+			h: Number.NaN
+		});
+		
+	</script>
+</job>
+```
