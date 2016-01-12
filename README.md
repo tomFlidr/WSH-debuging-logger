@@ -1,5 +1,5 @@
 # WSH-debuging-logger
-WSH Windows Script Host function to display structural objects
+WSH (Windows Script Host) JScript debuging function to display structural objects.
 
 ## Usage
 
@@ -24,3 +24,5 @@ Demonstration.wsh - plaint text file with "wsh" extension on Windows XP+
 	</script>
 </job>
 ```
+
+![Printscreen](https://raw.githubusercontent.com/tomFlidr/WSH-debuging-logger/master/printscreen.jpg)
