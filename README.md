@@ -4,7 +4,7 @@ WSH (Windows Script Host) JScript debuging function to display structural object
 ## Usage
 
 Demonstration.wsh - plaint text file with "wsh" extension on Windows XP+
-```
+```html
 <job>
 	<script language="JScript" src="./log.js">
 	<script language="JScript">
